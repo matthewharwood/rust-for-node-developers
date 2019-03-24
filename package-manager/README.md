@@ -436,6 +436,7 @@ The crate will be _automatically_ fetched as soon as we compile our program. Not
 This is how our [`src/main.rs`](dependencies/rust/src/main.rs) looks like:
 
 ```rust
+extern crate rfnd_hello_world;
 use rfnd_hello_world::HELLO_WORLD;
 
 fn main() {
